@@ -1,0 +1,27 @@
+---
+// Component Imports
+import Navbar from '../components/Navbar.jsx'
+
+// You can import components from any supported Framework here!
+
+
+let title = 'Listen to Talk Tech Teen Tech';
+let icon = 'https://media.redcircle.com/images/2021/1/18/20/b6b0af6b-760e-45ba-b17e-343691ea31e1_870662140c4c_c8b54261-a760-42c9-8337-e2e90f9bc755_1fbf3094-62a3-4eeb-80bc-af000cd780f2_55fb3f89-c491-4b04-a8aa-ee89162d04df_995f4e29-f83d-4b48-82c2-216daa9cd907_9553529-1602518611474-f9411325bae86.jpg?d=440x440'
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href={icon}>
+    <link rel="stylesheet" href="/style/global.css">
+</head>
+<body class="bg-black">
+
+    <Navbar client:visible />
+
+</body>
+</html>
