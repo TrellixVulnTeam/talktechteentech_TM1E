@@ -1,40 +1,21 @@
-# Welcome to [Astro](https://astro.build)
+# The Official Talk Tech Teen Tech Website
+The home of the podcast that will revolutionize how tech news is communicated
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+***
 
-## 🚀 Project Structure
+## This website can be found at:
 
-Inside of your Astro project, you'll see the following folders and files:
+   [https://www.talktechteentech.tk/](https://www.talktechteentech.tk/)
 
-```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Tour.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+***
+## How to use locally:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+    git clone https://github.com/VahuBali/talktechteentech.git
+    cd talktechteentech
+    npm start
+*And walla my website is running locally on your machine*
+***
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+# Important
+This repository is backed by the GNU GENERAL PUBLIC LICENSE which states that you can use this code for commercial and private use as long as you disclose the source code and use the same license... read more about it in `LICENSE.txt` file. 
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command         | Action                                      |
-|:----------------|:--------------------------------------------|
-| `npm install`   | Installs dependencies                       |
-| `npm run start` | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/`     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
