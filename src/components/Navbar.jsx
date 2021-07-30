@@ -11,9 +11,9 @@ export default function Navbar() {
   const navigation = [
     { name: "Home", href: "/" },
     { name: "Listen", href: "/listen" },
-    { name: "Blog", href: "#" },
-    { name: "Premium", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Blog", href: "/cs" },
+    { name: "Premium", href: "/cs" },
+    { name: "Contact", href: "/cs" },
   ];
 
   return (
@@ -40,11 +40,14 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center">
-            <button className="bg-white px-5 py-1.5">
-              <span className="text-transparent font-bold text-2xl font-main bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">
-                Log In
-              </span>
-            </button>
+              <button className="bg-white px-5 py-1.5" onClick={(e) => {
+                e.preventDefault();
+                window.location.href='/cs';
+              }}>
+                <span className="text-transparent font-bold text-2xl font-main bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">
+                  Log In
+                </span>
+              </button>
           </div>
         </div>
 
